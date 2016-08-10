@@ -1,0 +1,1 @@
+This project develops a distributed and generic job management solution. Each user will submit jobs from a Master node (e.g. their laptop) and the job management system should dispatch them to dedicated remote Worker machines for execution. Eventually, the results of a job execution (i.e. an output file) will be returned to the Master.

@@ -1,0 +1,16 @@
+Job Process Exit Code: 1
+This is demo job 1, exec commence!
+1111111
+-Xmx:257425408
+Free Memory:253398664
+This is demo job 1, exec complete!
+抛出异常！
+Exception in thread "main" java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+Caused by: java.lang.Exception: 测试异常
+	at job1.main(job1.java:23)
+	... 5 more
